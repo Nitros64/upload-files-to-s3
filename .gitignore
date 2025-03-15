@@ -1,3 +1,59 @@
 directory/
 node_modules/
 .env
+
+# 🚀 Archivos y carpetas de Go
+bin/
+pkg/
+*.exe
+*.out
+*.test
+*.a
+*.so
+
+# 🔹 Caché de Go
+*.swp
+*.swo
+*.swn
+*.log
+*.prof
+*.pb.go
+
+# 🛠 Archivos de compilación y dependencias
+/go/
+vendor/
+Gopkg.lock
+Gopkg.toml
+
+# 🚀 Módulos de Go (Go Modules)
+go.sum
+go.mod
+
+# ⚙ Archivos de configuración y temporales
+*.DS_Store
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.log
+
+# 🛠 Configuración de VS Code y editores
+.vscode/
+.idea/
+*.iml
+
+# 🌎 Variables de entorno y credenciales sensibles
+.env
+.env.local
+.env.*.local
+
+# 🔹 Archivos de depuración y perfiles de rendimiento
+trace.out
+heap.out
+cpu.out
+mem.out
+
+# 🚀 Resultados de pruebas
+*.coverprofile
+*.test
